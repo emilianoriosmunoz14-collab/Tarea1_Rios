@@ -10,3 +10,34 @@ body{
     color: #37423F;
     background-color: #FAFBFB;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #E1E3E4;
+
+    h1{ font-size: large;
+         color: #37423F; }
+    span{ color: #007979; }
+}
+.main-navigation{
+    ul{ display: flex; 
+        list-style: none; 
+        gap: 25px; }
+
+    a{ text-decoration: none;
+         font-family: "JetBrains Mono", monospace;
+          font-size: small;
+           color: #737877; }
+}
+.login-btn{
+    text-decoration: none;
+    background-color: #007979;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 4px;
+    font-size: small;
+}
