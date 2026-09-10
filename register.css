@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     font-family: "Work Sans", sans-serif;
     color: #37423F;
@@ -23,6 +24,7 @@ header{
          color: #37423F; }
     span{ color: #007979; }
 }
+
 .main-navigation{
     ul{ display: flex; 
         list-style: none; 
@@ -33,6 +35,7 @@ header{
           font-size: small;
            color: #737877; }
 }
+
 .login-btn{
     text-decoration: none;
     background-color: #007979;
@@ -40,4 +43,39 @@ header{
     padding: 10px 18px;
     border-radius: 4px;
     font-size: small;
+}
+
+.container{ 
+    width: 90%; 
+    max-width: 1100px; 
+    margin: auto; }
+
+.main-banner{ 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    gap: 40px;
+    padding: 60px 0; }
+
+.cta-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    width: 45%;
+    h1{ font-size: xx-large; color: #1C2624; }
+    p{ color: #737877; }
+}
+
+.banner-image{
+    width: 50%;
+    img{ width: 100%; border-radius: 6px; }
+}
+
+.primary-btn{
+    text-decoration: none;
+    background-color: #007979;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 4px;
 }
